@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SeAo",
+    "slug": "seao",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/imgs/logo.png",
+    "splash": {
+      "image": "./assets/imgs/main-menu.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0bd6c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.seao"
+    },
+    "description": "SheCodesHackathon Project of Team Cactus"
+  }
+}
